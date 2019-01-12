@@ -26,4 +26,8 @@ export class HeroesComponent implements OnInit {
   ngOnInit() {
   }
 
+  onSave(){
+    console.log('onSave')
+  }
 }
+
